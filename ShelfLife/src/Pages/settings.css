@@ -1,0 +1,83 @@
+/* --- Settings Page Wrapper --- */
+.settings-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+/* --- Control Cards --- */
+.settings-section {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 1.5rem 2rem;
+  transition: all 0.2s ease;
+}
+
+.settings-section:hover {
+  transform: translateY(-8px);
+  border-color: #10B981;
+  box-shadow: 0 10px 25px rgba(16, 185, 129, 0.15);
+}
+
+.settings-section h3 {
+  font-size: 1.25rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #10B981; /* Accent Color Title Match */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  padding-bottom: 0.75rem;
+}
+
+/* --- Functional Control Rows --- */
+.setting-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem 0;
+  gap: 2rem;
+}
+
+.setting-row:not(:last-child) {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.setting-text h4 {
+  margin: 0 0 0.25rem 0;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #F8FAFC;
+}
+
+.setting-text p {
+  margin: 0;
+  color: #94A3B8;
+  font-size: 0.88rem;
+}
+
+/* --- Danger Zone Overrides --- */
+.settings-section.danger-zone {
+  border: 1px solid rgba(239, 68, 68, 0.2);
+}
+
+.settings-section.danger-zone:hover {
+  border-color: #EF4444;
+  box-shadow: 0 10px 25px rgba(239, 68, 68, 0.15);
+}
+
+.settings-section.danger-zone h3 {
+  color: #EF4444;
+  border-color: rgba(239, 68, 68, 0.1);
+}
+
+/* --- Modern Custom Toggle Switches --- */
+.toggle-switch {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 44px;
+  height: 24px;
+  background-color: #0F172A;
+  border-radius: 50px;
+  position: relative;
+  cursor: pointer;

@@ -1,0 +1,66 @@
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.category-card-ui {
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.category-card-ui:hover {
+  transform: translateY(-8px);
+  border-color: #10B981;
+  box-shadow: 0 10px 25px rgba(16, 185, 129, 0.15);
+}
+
+
+.category-indicator {
+  width: 5px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.category-info {
+  flex: 1;
+}
+
+.category-info h3 {
+  margin: 0 0 0.25rem 0;
+  font-size: 1.15rem;
+  color: #10B981;
+}
+
+.category-info p {
+  margin: 0;
+  color: #94A3B8;
+  font-size: 0.9rem;
+}
+
+.view-shelf-btn {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: var(--text-color);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0.5rem 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: all var(--transition-speed);
+}
+
+.view-shelf-btn:hover {
+  background-color: var(--accent-color);
+  color: #000000;
+  border-color: var(--accent-color);
+}

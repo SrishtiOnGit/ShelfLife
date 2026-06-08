@@ -1,0 +1,82 @@
+.signup-container {
+  max-width: 420px;
+  margin: 80px auto;
+  padding: 40px;
+
+  background: #1E293B;
+
+  border-radius: 16px;
+
+  text-align: center;
+}
+
+.signup-container h1 {
+  color: #F8FAFC;
+}
+
+.signup-container p {
+  color: #94A3B8;
+}
+
+.signup-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.signup-container input {
+  padding: 14px;
+
+  border: 1px solid #334155;
+
+  border-radius: 10px;
+
+  background: #0F172A;
+
+  color: #F8FAFC;
+}
+
+.signup-container input:focus {
+  border-color: #10B981;
+  outline: none;
+}
+
+.signup-btn {
+  background: #10B981;
+
+  color: white;
+
+  border: none;
+
+  padding: 14px;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+}
+
+.signin-link a {
+  color: #10B981;
+  text-decoration: none;
+}
+
+.google-btn {
+  width: 100%;
+
+  background: transparent;
+
+  border: 1px solid #334155 !important;
+
+  color: #F8FAFC;
+
+  padding: 14px;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+
+}
+
+.google-btn:hover {
+  border-color: #10B981 !important;
+}

@@ -1,0 +1,43 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0F172A;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 60px 20px
+}
+.about h2 {
+    color: #10B981;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+.about p {
+    color: #94A3B8;
+    margin-bottom: 40px;
+}
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.feature-card {
+  background: #1E293B;
+  padding: 30px;
+  border-radius: 16px;
+  border: 1px solid rgba(148, 163, 184, 0.1);
+  transition: all 0.3s ease;
+}
+
+.feature-card h3 {
+  color: #10B981;
+  margin-bottom: 15px;
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+  border-color: #10B981;
+  box-shadow: 0 10px 25px rgba(16, 185, 129, 0.15);
+}
