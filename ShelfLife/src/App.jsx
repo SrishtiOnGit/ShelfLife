@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {hero-img} from './assets/hero.png';
+import hero-img from './assets/hero.png';
 
 import Navbar from './components/navbar';
 import Features from './components/features';
