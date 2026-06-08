@@ -28,7 +28,7 @@ Muted: #94A3B8
 
 ## Get Started
 
-Test my webapp at [ShelfLife](https://shelf-life-topaz.vercel.app/)
+Test my webapp at https://shelf-life-l9u7.vercel.app/
 
 Honestly, I don't know how to write a Readme but I took help of AI to write it..
 
