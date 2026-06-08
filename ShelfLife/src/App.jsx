@@ -14,10 +14,13 @@ import Categories from './Pages/category';
 import Profile from './Pages/profile';
 import Settings from './Pages/settings';
 
+import { useNavigate } from 'react-router-dom';
+
 
 import { Routes, Route } from 'react-router-dom';
 
 function HomePage() {
+  const navigate = useNavigate();
   return (
     <>
       <Navbar />
@@ -27,7 +30,7 @@ function HomePage() {
       </div>
 
       <main className="main">
-        <button className="btn">
+        <button className="btn" onClick={()=> navigate("/signin")}>
           Get Started - It's Free
         </button>
       </main>
