@@ -27,6 +27,25 @@ Muted: #94A3B8
 ## Get Started
 Test my webapp at https://shelf-life-l9u7.vercel.app/
 
+## Features
+📚 Smart Shelf
+Your digital shelf for everything you're exploring.
+
+📈 Progress Tracking
+Track your progress and always know how close you are to completion.
+
+🔔 Smart Reminders
+Receive timely reminders to revisit unfinished interests before they fade away.
+
+🎯 Goals & Milestones
+Set targets and transform curiosity into consistent progress.
+
+📊 Activity Insights
+Visualize your habits, discover patterns, and stay motivated through meaningful analytics.
+
+🧠 Resume Assistant
+Never lose your place again. Pick up exactly where you left off.
+
 Honestly, I don't know how to write a Readme but I took help of AI to write it..
 
 Thanks..
