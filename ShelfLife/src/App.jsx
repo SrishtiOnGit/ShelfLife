@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import {hero-img} from './assets/hero.png';
 
 import Navbar from './components/navbar';
 import Features from './components/features';
@@ -22,7 +23,7 @@ function HomePage() {
       <Navbar />
 
       <div className="hero">
-        <img src="/src/assets/hero.png" alt="hero-img" />
+        <img src= {hero-img} alt="hero-img" />
       </div>
 
       <main className="main">
