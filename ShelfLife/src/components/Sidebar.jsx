@@ -1,11 +1,12 @@
 import React from "react";
 import "./Sidebar.css";
 import {NavLink } from "react-router-dom";
+import Logo from "../assets/logo.png";
 
 const Sidebar = () => {
   return (
     <aside className="sidebar">
-      <img src="/src/assets/logo.png" alt="logo" />
+      <img src={Logo} alt="logo" />
 
       <ul>
         <li>
