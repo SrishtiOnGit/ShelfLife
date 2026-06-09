@@ -25,7 +25,7 @@ Text: #F8FAFC
 Muted: #94A3B8
 
 Get Started
-Test my webapp at https://shelf-life-l9u7.vercel.app/
+Test my webapp at https://shelf-life-w7nn-bwsf3l7y1-srishtiongits-projects.vercel.app/
 
 Features
 📚 Smart Shelf Your digital shelf for everything you're exploring.
