@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Sidebar from "../components/Sidebar";
+import { auth } from "../firebase";
 import "./dashboard.css";
 
 import {
@@ -7,9 +8,10 @@ import {
   addDoc,
   getDocs,
   deleteDoc,
-  doc
+  doc,
+  query,
+  where
 } from "firebase/firestore";
-
 import { db } from "../firebase";
 
 const Dashboard = () => {
@@ -20,15 +22,20 @@ const Dashboard = () => {
   const [showForm, setShowForm] = useState(false);
 
   const fetchItems = async () => {
-    const querySnapshot = await getDocs(collection(db, "items"));
+  const q = query(
+    collection(db, "items"),
+    where("uid", "==", auth.currentUser.uid)
+  );
 
-    const data = querySnapshot.docs.map((docSnap) => ({
-      id: docSnap.id,
-      ...docSnap.data(),
-    }));
+  const querySnapshot = await getDocs(q);
 
-    setItems(data);
-  };
+  const data = querySnapshot.docs.map((docSnap) => ({
+    id: docSnap.id,
+    ...docSnap.data(),
+  }));
+
+  setItems(data);
+};
 
   useEffect(() => {
     fetchItems();
@@ -38,10 +45,11 @@ const Dashboard = () => {
     if (!title.trim()) return;
 
     await addDoc(collection(db, "items"), {
-      title,
-      category,
-      status,
-    });
+  title,
+  category,
+  status,
+  uid: auth.currentUser.uid,
+});
 
     setTitle("");
     setCategory("Book");
