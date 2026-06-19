@@ -11,20 +11,19 @@ ShelfLife is a React web app that helps users keep track of books, courses, TV s
 
 ## Tech Stack
 
- React
- Firebase Authentication
- Cloud Firestore
- CSS
+ 1.React
+ 2.Firebase Authentication
+ 3.Cloud Firestore
+ 4.CSS
 
 ## What I Learned
 
-ShelfLife was my first larger React project. While building it, I learned:
+ShelfLife was my first larger React project. I learned:
 
- React components
- State management
- Firebase Authentication
- Firestore basics
- Organizing a larger project structure
+ 1.React components
+ 2.State management
+ 3.Firebase Authentication
+ 4.Firestore basics
 
 ## Demo
 
