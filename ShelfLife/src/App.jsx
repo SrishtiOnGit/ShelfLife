@@ -1,4 +1,3 @@
-import React from 'react';
 import './App.css';
 import heroImg from './assets/hero.png'; 
 import { useEffect } from "react";
@@ -37,7 +36,17 @@ function HomePage() {
 
   return (
     <>
-      
+      <div className="hero">
+        <img src={heroImg} className="hero-img" alt="img" />
+      </div>
+      <div className="main">
+      <button className='btn' onClick={()=> navigate('/signin')}>Get Started</button>
+      </div>
+
+      <Features />
+      <Review />
+
+      <footer className="footer">Made with ❤️ by <a href="https://github.com/SrishtiOnGit">Srishti</a></footer>
     </>
   );
 }function App() {

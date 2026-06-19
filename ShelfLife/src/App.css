@@ -28,7 +28,7 @@ body,
   align-items: center;
 }
 
-.hero img {
+.hero-img {
   margin-top: 95px;
   width: 900px;
   height: auto;
@@ -41,7 +41,7 @@ body,
   justify-content: center;
   align-items: center;
 }
-.btn {
+.btn{
   background: #10B981;
   color: white;
   border: none;
@@ -74,4 +74,5 @@ body,
   color: #10B981;
   text-decoration: none;
   font-weight: bold;
+  margin-left: 7px;
 }
