@@ -28,4 +28,5 @@ ShelfLife was my first larger React project. While building it, I learned:
 
 ## Demo
 
-[Live Demo](your-link)
+https://srishtiongit.github.io/ShelfLife/
+
